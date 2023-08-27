@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* HEADER SECTION START HERE  */
+        .header {
+            height: 40px;
+            width: auto;
+            display: flex;
+            padding: 6px 40px;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--primary-color, #7749F8);
+            color: aliceblue;
+            font-size: 10px;
+        }
+
+        .jhon {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: aliceblue;
+        }
+
+        .all-bolgs-haeding h1 {
+            color: var(--primary-color, #7749F8);
+
+            /* Bold/H1 Heading */
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.8px;
+        }
+
+        /* 
+        MORNING HEADING  CSS  */
+        .morning-heading {
+            color: #152536;
+
+/* Semi-Bold / H3 Heading */
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+        }
+
+        .morning-heading h1 {
+            color: var(--gray-800, #343A40);
+
+            /* Bold/H1 Heading */
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.8px;
+        }
+
+/* BACK ALL BLOG POST */
+.mybolg-conatnier {
+            display: flex;
+            width: 881px;
+            padding: 18px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+            border-radius: 12px;
+            border: 1px solid var(--gray-300, #DEE2E6);
+            background: var(--default-white, #FFF);
+        }
+
+        .mybolg-heading {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .mybolg-heading h1 {
+            color: var(--gray-900, #212529);
+
+            /* Semi-Bold / H4 Heading */
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .myblog-para{
+            color: var(--gray-600, #6C757D);
+
+/* Body/ Base text */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */  
+        }
+
+        .mybolg-heading img {
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+            border-radius: 15px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+
+   
+        
+        .two-btn {
+            color: var(--primary-color, #7749F8);
+
+            /* Body/ Base text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            /* 175% */
+        }
+        .Musk-section h1{
+            color: #152536;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+        }
+        .Musk-section h2{
+            color: var(--primary-color, #7749F8);
+
+/* Bold/H1 Heading */
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.8px;  
+        }
+        .Musk-section img{
+            width: 300px;
+height: 293px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid var(--gray-300, #DEE2E6);
+background: url(<path-to-image>), lightgray -7.163px -7.095px / 102.388% 102.454% no-repeat;
+        }
+        .grid-section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION START HERE -->
+    <div class="header">
+        <h1>PERSONAL BLOG APP</h1>
+        <div class="jhon">
+            <h2 class="signup-heading">LogIn</h2>
+        </div>
+    </div>
+
+    <div class="all-bolgs-haeding">
+        <h1> Back to all blogs</h1>
+    </div>
+
+
+    <div class="morning-heading">
+        <h1>All from Elon Musk</h1>
+    </div>
+
+
+    <section class="grid-section">
+
+
+        <section class="mybolg-conatnier">
+
+            <div class="mybolg-heading">
+                <img src="./profile 2.png">
+                <h1>Introducing Whisper</h1>
+                <h2>Inzamam Malik - August 16th, 2023</h2>
+                <!-- <img src="./profile 4.png"> -->
+            </div>
+    
+    
+            <div class="myblog-para">
+                <p>Apple could be putting an Action button on your next iPhone. According to a July report from MacRumors,
+                    code in the fourth iOS 17 developer beta hints at functionality for an Action button on the next-gen
+                    iPhone 15 Pro and Pro Max models.
+                    Apple introduced the Action button on the Apple Watch Ultra. It's a physical button on the side of the
+                    Apple Watch Ultra that allows you to run a preselected function or program when you press it without
+                    unlocking your device or navigating to an app. Some of the preselected functions include starting a
+                    stopwatch, beginning a workout and turning on your flashlight.</p>
+            </div>
+    
+    
+            <div class="two-btn">
+                <h1>see all from this user</h1>
+                <!-- <button class="Delete-btn">Delete </button>
+            <button class="Delete-btn">EIDT </button> -->
+            </div>
+        </section>
+    
+
+<section class="Musk-section">
+    <h1>elon@openai.com</h1>
+    <h2>Elon Musk</h2>
+    <img src="./profile 2.png">
+</section>
+
+    </section>
+
+
+    <section class="mybolg-conatnier">
+
+        <div class="mybolg-heading">
+            <img src="./profile 2.png">
+            <h1> Introducing ChatGPT</h1>
+            <h2>Elon Musk - November 23rd, 2022</h2>
+            <!-- <img src="./profile 4.png"> -->
+        </div>
+
+
+        <div class="myblog-para">
+            <p>We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.
+                We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.  Methods:
+                We trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.
+                To create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process.
+                We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.
+We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.  Methods:
+We trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.
+To create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process.
+</p>
+        </div>
+
+
+        <div class="two-btn">
+            <h1>see all from this user</h1>
+            <!-- <button class="Delete-btn">Delete </button>
+        <button class="Delete-btn">EIDT </button> -->
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

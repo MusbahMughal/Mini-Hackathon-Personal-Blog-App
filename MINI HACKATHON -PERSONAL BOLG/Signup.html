@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMIT MINI HACKATHON PERSONAL BOLG</title>
+
+  <style>
+    /* HEADER CSS WORK START HERE */
+
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    
+        .signup-container {
+          background-color: white;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          width: 320px;
+        }
+      
+        .signup-input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      
+        .signup-button {
+          background-color: purple;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 10px 20px;
+          cursor: pointer;
+          width: 100%;
+        }
+      
+        .signup-button:hover {
+          background-color: #8a2be2; 
+        }
+        .header {
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+
+   .signup-heading {
+    margin: 0;
+    cursor: pointer;
+  }
+  .header {
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  } 
+
+     .header h1 {
+    margin: 0;
+  } 
+
+     .signup-heading {
+    margin: 0;
+    cursor: pointer;
+  } 
+
+    /* .header {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+    } */
+
+    /* .Header {
+      display: flex;
+      width: 1034px;
+      padding: 2px 166px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #7749F8;
+    }
+
+    .Header h1 {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: white;
+    }
+
+    .Header a {
+      color: #FFF;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.24px;
+      text-decoration: none;
+    } */
+  </style>
+
+
+
+
+</head>
+
+<body>
+
+
+  <!-- <div class="header">
+    <div class="Header">
+      <h1>Personal Blogging App </h1>
+      <a href="./signIn.html">Login</a>
+    </div>
+    <div class="page-header">
+      <h1>SignUp</h1>
+    </div>
+  </div> -->
+
+
+
+  <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form>
+          <input class="signup-input" type="text" placeholder="Full Name" required>
+          <input class="signup-input" type="text" placeholder="Last Name" required>
+          <input class="signup-input" type="email" placeholder="Email" required>
+          <input class="signup-input" type="password" placeholder="Password" required>
+          <input class="signup-input" type="password" placeholder="Repeat Password" required>
+          <button class="signup-button" type="submit">Sign Up</button>
+        </form>
+      </div>
+
+
+      <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="./firebase-config.js"></script>
+        <script src="./app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbosrd page</title>
+
+    <style>
+        /* header css start here */
+        .header {
+            height: 40px;
+            width: auto;
+            display: flex;
+            padding: 6px 40px;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--primary-color, #7749F8);
+            color: aliceblue;
+            font-size: 10px;
+        }
+
+        .jhon {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: aliceblue;
+        }
+
+        .Dashboard {
+            display: flex;
+            width: auto;
+            /* width: 1440px; */
+            padding: 32px 100px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--gray-300, #DEE2E6);
+            background: var(--default-white, #FFF);
+        }
+
+        .Dashboard h1 {
+            color: var(--gray-800, #343A40);
+
+            /* Bold/H1 Heading */
+            font-family: Inter;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.8px;
+        }
+
+/* 
+        Dashboard CSS WORK */
+        .dashboard {
+    padding: 20px;
+  }
+
+  .publish-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .publish-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .publish-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .publish-button:hover {
+    background-color: #8a2be2; /* Darker purple for hover effect */
+  }
+
+
+   /* 
+        MYBLOG CSS START HERE */
+        .mybolg-conatnier {
+            display: flex;
+            width: 881px;
+            padding: 18px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+            border-radius: 12px;
+            border: 1px solid var(--gray-300, #DEE2E6);
+            background: var(--default-white, #FFF);
+        }
+
+        .mybolg-heading {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .mybolg-heading h1 {
+            color: var(--gray-900, #212529);
+
+            /* Semi-Bold / H4 Heading */
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .mybolg-heading img {
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+            border-radius: 15px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+
+        .Delete-btn {
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .Delete-btn{
+           background-color: #8a2be2; /* Darker purple for hover effect */ 
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header start here -->
+    <div class="header">
+        <h1>PERSONAL BLOG APP</h1>
+        <div class="jhon">
+            <h2 class="signup-heading">JOHN </h2>
+            <h2 class="signup-heading">LOGOUT</h2>
+        </div>
+    </div>
+
+    <div class="Dashboard">
+        <h1>Dashboard</h1>
+    </div>
+<!-- 
+    Dashboard css  -->
+    <section>
+        <div class="dashboard">
+            <div class="publish-form">
+              <h2>Publish Blog</h2>
+              <form>
+                <input class="publish-input" type="text" placeholder="Name" required>
+                <textarea class="publish-input" rows="6" placeholder="Write your blog here..." required></textarea>
+                <button class="publish-button" type="submit">Publish Blog</button>
+              </form>
+            </div>
+          </div>
+    </section>
+
+<!-- MY BOLG SECTION START HERE  -->
+<section class="mybolg-conatnier">
+
+    <div class="mybolg-heading">
+        <img src="./profile 4.png">
+        <h1>An Action Button Could Be<br> Coming to the iPhone 15</h1>
+        <h2>Inzamam Malik - August 16th, 2023</h2>
+        <!-- <img src="./profile 4.png"> -->
+    </div>
+
+
+    <div class="myblog-para">
+        <p>Apple could be putting an Action button on your next iPhone. According to a July report from MacRumors,
+            code in the fourth iOS 17 developer beta hints at functionality for an Action button on the next-gen
+            iPhone 15 Pro and Pro Max models.
+            Apple introduced the Action button on the Apple Watch Ultra. It's a physical button on the side of the
+            Apple Watch Ultra that allows you to run a preselected function or program when you press it without
+            unlocking your device or navigating to an app. Some of the preselected functions include starting a
+            stopwatch, beginning a workout and turning on your flashlight.</p>
+    </div>
+
+
+    <div class="two-btn">
+        <button class="Delete-btn">Delete </button>
+        <button class="Delete-btn">EIDT </button>
+    </div>
+</section>
+
+<!-- SECOND MT BLOG SECTION -->
+
+
+<section>
+    <section class="mybolg-conatnier">
+
+        <div class="mybolg-heading">
+            <img src="./profile 4.png">
+            <h1>What Is the Event Loop and <br>How Does It Improve App Performance?</h1>
+            <h2>Inzamam Malik - August 15th, 2023</h2>
+            <!-- <img src="./profile 4.png"> -->
+        </div>
+
+
+        <div class="myblog-para">
+            <p>JavaScript is a single-threaded language, built to handle tasks one at a time. However, the event
+                loop lets JavaScript handle events and callbacks asynchronously by emulating simultaneous
+                programming systems. This assures the performance of your JavaScript applications.JavaScript is a
+                single-threaded language, built to handle tasks one at a time. However, the event loop lets
+                JavaScript handle events and callbacks asynchronously by emulating simultaneous programming systems.
+                This assures the performance of your JavaScript applications.JavaScript is a single-threaded
+                language, built to handle tasks one at a time. However, the event loop lets JavaScript handle events
+                and callbacks asynchronously by emulating simultaneous programming systems. This assures the
+                performance of your JavaScript applications.JavaScript is a single-threaded language, built to
+                handle tasks one at a time. However, the event loop lets JavaScript handle events and callbacks
+                asynchronously by emulating simultaneous programming systems. This assures the performance of your
+                JavaScript applications..</p>
+        </div>
+
+
+        <div class="two-btn">
+            <button class="Delete-btn">Delete </button>
+            <button class="Delete-btn">EIDT </button>
+        </div>
+    </section>
+</section>
+
+</body>
+
+</html>
